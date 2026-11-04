@@ -5,94 +5,282 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Personal portfolio website">
-  <title>My Portfolio</title>
+  <title>Ama Anwar | Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="index.html">Ama Anwar<span class="dot">.</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+      <a class="brand" href="index.html">
+        Ama Anwar<span class="dot">.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        Menu
+      </button>
+
       <div class="nav-links" id="nav-links">
         <a href="about.html">About</a>
         <a href="#research">Research</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
+
     </nav>
   </header>
 
+
   <main>
+
+    <!-- HERO SECTION -->
     <section class="hero container" id="home">
+
       <p class="eyebrow">WELCOME TO MY WEBSITE</p>
-      <h1>Hi, I'm <span class="accent">Ama.</span></h1>
-      <p class="lead">I'm interested in research, clinical care, and humanities.</p>
+
+      <h1>
+        Hi, I'm <span class="accent">Ama.</span>
+      </h1>
+
+      <p class="lead">
+        I'm interested in research, clinical care, and humanities.
+      </p>
+
       <div class="actions">
-        <a class="button" href="#projects">Explore my work</a>
-        <a class="button secondary" href="#contact">Get in touch</a>
+        <a class="button" href="#projects">
+          Explore my work
+        </a>
+
+        <a class="button secondary" href="#contact">
+          Get in touch
+        </a>
       </div>
+
     </section>
 
+
+    <!-- RESEARCH & EXPERIENCE -->
     <section class="section" id="research">
+
       <div class="container">
+
         <p class="eyebrow">01 / RESEARCH</p>
+
         <h2>Research & experience</h2>
+
         <div class="cards">
-          <article class="card">
-            <p class="card-label">Research</p>
-            <h3></h3>
-            <p></p>
-          </article>
-          <article class="card">
-            <p class="card-label">Experience</p>
-            <h3></h3>
-            <p></p>
-          </article>
+
+          <!-- RESEARCH CARD 01 -->
+          <a class="card photo-card" href="research-1.html">
+
+            <img
+              src="images/research-1.jpg"
+              alt="Research featured photograph"
+              class="card-image"
+              loading="lazy"
+            >
+
+            <div class="card-content">
+
+              <p class="card-label">Research</p>
+
+              <h3>Research Title</h3>
+
+              <p>
+                A brief description of the research project,
+                its focus, and its significance.
+              </p>
+
+              <span class="card-arrow">
+                Explore research &rarr;
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- EXPERIENCE CARD 01 -->
+          <a class="card photo-card" href="experience-1.html">
+
+            <img
+              src="images/experience-1.jpg"
+              alt="Experience featured photograph"
+              class="card-image"
+              loading="lazy"
+            >
+
+            <div class="card-content">
+
+              <p class="card-label">Experience</p>
+
+              <h3>Experience Title</h3>
+
+              <p>
+                A brief description of the experience,
+                responsibilities, and contributions.
+              </p>
+
+              <span class="card-arrow">
+                Read more &rarr;
+              </span>
+
+            </div>
+
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- SELECTED PROJECTS -->
     <section class="section alt" id="projects">
+
       <div class="container">
+
         <p class="eyebrow">02 / PROJECTS</p>
+
         <h2>Selected projects</h2>
+
         <div class="cards">
-          <article class="card">
-            <p class="card-label">Project 01</p>
-            <h3></h3>
-            <p></p>
-            <a class="text-link" href="https://github.com/" target="_blank" rel="noopener noreferrer"></a>
-          </article>
-          <article class="card">
-            <p class="card-label">Project 02</p>
-            <h3></h3>
-            <p></p>
-            <a class="text-link" href="https://github.com/" target="_blank" rel="noopener noreferrer"></a>
-          </article>
+
+          <!-- PROJECT CARD 01 -->
+          <a class="card photo-card" href="project-1.html">
+
+            <img
+              src="images/project-1.jpg"
+              alt="Project 01 featured photograph"
+              class="card-image"
+              loading="lazy"
+            >
+
+            <div class="card-content">
+
+              <p class="card-label">Project 01</p>
+
+              <h3>Project Title</h3>
+
+              <p>
+                A brief description of the project,
+                its objectives, and outcomes.
+              </p>
+
+              <span class="card-arrow">
+                View project &rarr;
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- PROJECT CARD 02 -->
+          <a class="card photo-card" href="project-2.html">
+
+            <img
+              src="images/project-2.jpg"
+              alt="Project 02 featured photograph"
+              class="card-image"
+              loading="lazy"
+            >
+
+            <div class="card-content">
+
+              <p class="card-label">Project 02</p>
+
+              <h3>Project Title</h3>
+
+              <p>
+                A brief description of the project,
+                its methods, and key findings.
+              </p>
+
+              <span class="card-arrow">
+                View project &rarr;
+              </span>
+
+            </div>
+
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- CONTACT -->
     <section class="section" id="contact">
+
       <div class="container narrow">
+
         <p class="eyebrow">03 / CONTACT</p>
+
         <h2>Let's connect.</h2>
+
         <p></p>
+
         <div class="contact-links">
-          <a href="mailto:hello@example.com">Email</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"></a>
+
+          <a href="mailto:hello@example.com">
+            Email
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer class="footer">
+
     <div class="container">
-      <span>© <span id="year"></span> Ama Anwar</span>
-      <a href="#home">Back to top ↑</a>
+
+      <span>
+        © <span id="year"></span> Ama Anwar
+      </span>
+
+      <a href="#home">
+        Back to top &uarr;
+      </a>
+
     </div>
+
   </footer>
+
 </body>
 </html>
+
